@@ -18,3 +18,11 @@ app.listen(port, ()=> {
 app.get('/', (req, res, next) =>{
     res.render('index.ejs')
 })
+
+app.get('/contact', (req, res, next) =>{
+    res.render('contact.ejs')
+})
+
+app.get('/page2', (req, res, next) =>{
+    res.render('page2.ejs')
+})
